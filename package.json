@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export:archive": "node scripts/exportArchiveManifest.js",
+    "test": "node --test scripts/"
   },
   "dependencies": {
     "vue": "^3.5.34",

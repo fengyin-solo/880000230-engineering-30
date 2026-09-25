@@ -17,6 +17,9 @@ dist-ssr
 .cache
 coverage
 
+# Generated archive exports
+exports
+
 # Local env files
 *.local
 .env
