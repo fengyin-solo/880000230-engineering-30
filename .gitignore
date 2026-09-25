@@ -17,6 +17,9 @@ dist-ssr
 .cache
 coverage
 
+# Export outputs
+exports
+
 # Local env files
 *.local
 .env

@@ -1,0 +1,58 @@
+// 无酸盒归档清单的最小示例数据。
+// 字段与现有批次档案保持一致（code/title/pages/risk/status/note），仅新增盒号 boxNo。
+export const archiveBoxes = [
+  {
+    boxNo: 'ACF-2026-001',
+    code: 'A-03',
+    title: '明抄本县志残卷',
+    pages: '17-29',
+    risk: 'high',
+    status: '待入盒',
+    note: '虫道集中在装订线外沿，待配无酸盒。',
+  },
+  {
+    boxNo: 'ACF-2026-002',
+    code: 'B-11',
+    title: '碑帖拓片册页',
+    pages: '5-14',
+    risk: 'medium',
+    status: '待入盒',
+    note: '降湿 48 小时后转入配盒。',
+  },
+  {
+    boxNo: 'ACF-2026-003',
+    code: 'C-02',
+    title: '戏曲抄本散页',
+    pages: '1-9',
+    risk: 'low',
+    status: '暂存',
+    note: '透明托裱完成，盒内暂存待复核。',
+  },
+  {
+    boxNo: 'ACF-2026-004',
+    code: 'D-07',
+    title: '家谱木刻版残页',
+    pages: '3-6',
+    risk: 'medium',
+    status: '暂存',
+    note: '封套尺寸确认前暂存。',
+  },
+  {
+    boxNo: 'ACF-2026-005',
+    code: 'E-01',
+    title: '民国石印画报合订',
+    pages: '1-32',
+    risk: 'low',
+    status: '已完成',
+    note: '已入盒并登记架位。',
+  },
+  {
+    boxNo: 'ACF-2026-006',
+    code: 'F-05',
+    title: '清代药方抄本',
+    pages: '10-18',
+    risk: 'low',
+    status: '已完成',
+    note: '盒内附防潮纸，归档完成。',
+  },
+]
